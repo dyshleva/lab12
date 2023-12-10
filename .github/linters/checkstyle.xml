@@ -197,9 +197,6 @@
         <module name="LocalFinalVariableName">
             <property name="format" value="^[A-Z][A-Z_]*$"/>
         </module>
-        <module name="LocalVariableName">
-            <property name="format" value="^[a-z][a-zA-Z]*$"/>
-        </module>
         <module name="MemberName">
             <property name="format" value="^[a-z][a-zA-Z]*$"/>
         </module>
@@ -208,10 +205,7 @@
             <property name="format" value="^[a-z][a-zA-Z]*$"/>
         </module>
 
-        <module name="PackageName">
-            <property name="format" value="^[a-z]+(\.[a-z][a-z]*)*$"/>
-        </module>
-        <module name="PackageName"/>
+
         <module name="ParameterName">
             <property name="format" value="^[a-z][a-zA-Z]*$"/>
         </module>
